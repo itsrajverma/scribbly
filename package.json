@@ -1,0 +1,34 @@
+{
+  "name": "scribbly",
+  "version": "0.1.0",
+  "description": "A hand-drawn style virtual whiteboard that runs entirely in your browser",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Raj Verma",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/kalam": "^5.3.0",
+    "lucide-react": "^1.56.0",
+    "perfect-freehand": "^1.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "roughjs": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "type": "module",
+  "homepage": "https://itsrajverma.github.io/scribbly/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsrajverma/scribbly.git"
+  }
+}
